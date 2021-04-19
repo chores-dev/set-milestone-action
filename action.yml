@@ -1,0 +1,12 @@
+name: 'Sets the milestone on a PR using chores.dev'
+description: 'Sets the milestone on a PR using chores.dev'
+branding:
+  icon: 'folder-plus'
+  color: 'blue'
+inputs:
+  milestone:
+    description: 'The milestone you want to set for the current PR'
+    required: true
+runs:
+  using: 'node12'
+  main: 'action.js'
