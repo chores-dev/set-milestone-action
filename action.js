@@ -21,8 +21,6 @@ const data = JSON.stringify({
     },
 });
 
-console.log(data);
-
 const options = {
     hostname: 'github-actions.chores.dev',
     port: 443,
