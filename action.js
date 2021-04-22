@@ -17,7 +17,6 @@ const data = JSON.stringify({
     },
     event: {
         name: process.env.GITHUB_EVENT_NAME,
-        payload: JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH)),
     },
 });
 
